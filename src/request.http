@@ -1,0 +1,18 @@
+### login user
+
+POST http://localhost:3000/auth/login
+Content-Type: application/json
+
+{
+      "username": "john",
+      "password": "changeme",
+      "email":"azhermurad@gmail.com"
+}
+
+
+### 
+
+
+GET  http://localhost:3000/profile
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOjEsImlhdCI6MTcyMTA4NjE1NywiZXhwIjoxNzIxMDg2MjE3fQ.I5lf1fKuyQowhCKStYd9epaFG7iXNWFLscsTh66kbzI
